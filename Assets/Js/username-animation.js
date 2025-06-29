@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const cursorElement = document.getElementById('typing-cursor');
   
   const usernameVariants = [
-    "c0mplex", 
+    "Lê Gia Huy", 
     "Front-end Developer",
     "Currently learning Back-end",
     "To Yeu Cau ♥︎"
