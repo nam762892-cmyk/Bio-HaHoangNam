@@ -36,7 +36,7 @@ function startMusicAfterTerminal() {
 }
 
 function loadSong(index) {
-    audio.src = `./assets/music/${shuffledSongs[index]}`;
+    audio.src = `./Assets/Music/${shuffledSongs[index]}`;
     
     if (isPlaying) {
         audio.play().catch(error => console.error("Play error:", error));
