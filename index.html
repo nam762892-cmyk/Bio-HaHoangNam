@@ -33,22 +33,16 @@
     <video autoplay muted loop playsinline webkit-playsinline id="myVideo">
       <source src="./Assets/Back/default.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
-    </video>
-<video id="myVideo" 
-  playsinline 
-  webkit-playsinline 
-  autoplay 
-  muted 
-  loop 
-  src="video.mp4">
-</video>
-
 <script>
-  const vid = document.getElementById("myVideo");
+  const video = document.getElementById("myVideo");
+  //
+  video.mute = true;
+  video.play();
+  //
   document.addEventListener("click", () => {
-    if (vid.muted) {
-      vid.muted = false;
-      vid.play();
+    if (video.muted) {
+      video.muted = false;
+      video.play();
     }
   });
 </script>
