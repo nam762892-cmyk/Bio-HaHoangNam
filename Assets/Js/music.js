@@ -36,7 +36,7 @@ function startMusicAfterTerminal() {
 }
 
 function loadSong(index) {
-    audio.src = `./Assets/Music/${shuffledSongs[index]}`;
+    audio.src = `./assets/music/${shuffledSongs[index]}`;
     
     if (isPlaying) {
         audio.play().catch(error => console.error("Play error:", error));
@@ -57,3 +57,18 @@ window.MusicPlayer = {
     start: startMusicAfterTerminal,
     getAudio: () => audio
 };
+<script>
+  const video = document.getElementById("myVideo");
+
+  // Cho autoplay inline nhưng mute
+  video.muted = true;
+  video.play();
+
+  // Khi user click bất kỳ đâu -> bật tiếng
+  document.addEventListener("click", () => {
+    if (video.muted) {
+      video.muted = false;
+      video.play();
+    }
+  });
+</script>
