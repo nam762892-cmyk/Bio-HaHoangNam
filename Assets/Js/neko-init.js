@@ -7,7 +7,7 @@ function initNekoCats() {
 
   const mainNeko = new Neko({ 
     nekoName: "main-neko", 
-    nekoImageUrl: "./Assets/cursor/neko.png",
+    nekoImageUrl: "./Assets/Cursor/neko.png",
     initialPosX: window.innerWidth / 2,
     initialPosY: window.innerHeight / 2
   });
