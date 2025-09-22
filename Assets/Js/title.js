@@ -1,17 +1,17 @@
 var titles = [
   "@",
   "@H",
-  "@Ha",
-  "@Hak",
-  "@Haki",
-  "@HakiS",
-  "@HakiSk",
-  "@HakiSky",
-  "@HakiSk",
-  "@HakiS",
-  "@Haki",
-  "@Hak",
-  "@Ha",
+  "@Ho",
+  "@Hoa",
+  "@Hoag",
+  "@HoagN",
+  "@HoagNa",
+  "@HoagNam",
+  "@HoagNa",
+  "@HoagN",
+  "@Hoag",
+  "@Hoa",
+  "@Ho",
   "@H"
 ];
 
